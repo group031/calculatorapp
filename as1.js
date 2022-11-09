@@ -28,4 +28,10 @@ function div() {
     res = numOne / numTwo;
     document.getElementById("divide").value = res;
 }
+function squ() {
+    numOne = parseInt(document.getElementById("one").value);
+    res = numOne*numOne
+    document.getElementById("square").value = res;
+}
+
 // }
