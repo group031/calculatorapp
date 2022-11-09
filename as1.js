@@ -2,13 +2,7 @@ var numOne, numTwo, res, temp;
 // if (numOne && numTwo) {
 // temp = document.getElementById("res");
 // temp.style.display = "block";
-function add() {
-    numOne = parseInt(document.getElementById("one").value);
-    numTwo = parseInt(document.getElementById("two").value);
-    res = numOne + numTwo;
-    console.log(res)
-    document.getElementById("add").value = res;
-}
+
 function sub() {
     numOne = parseInt(document.getElementById("one").value);
     numTwo = parseInt(document.getElementById("two").value);
